@@ -15,4 +15,5 @@ while(tempnumber!=0)
  printf("%d is armstromg number", number);
  else
  printf("%d is not an armstrong number", number);
+ return 0;
  }
