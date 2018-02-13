@@ -3,7 +3,7 @@
 
 int main()
 {
-	int count,n=15;
+	int count,k=15;
 	char name[50];
   printf("Enter the name: ");
 	scanf("%s",name);
@@ -11,7 +11,7 @@ int main()
 	printf("%s, ",name);
 	count++;
 	start:
-	if(count<=n)
+	if(count<=k)
 	goto start;
 	return 0;
 }
