@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
-int n;
+int i;
 printf("enter the number");
-scanf("%d",&n);
-if(n%2!=0)
+scanf("%d",&i);
+if(i%2!=0)
 {
 printf("prime number");
 }
